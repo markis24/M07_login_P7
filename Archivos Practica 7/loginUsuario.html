@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari PHP</title>
+</head>
+
+<body>
+    <h1>Iniciar sessió d'usuari</h1>
+
+    <form method="POST" action="validarUsuario.php">
+        <div>
+            <label for="email">Correu electrònic</label>
+            <input type="text" name="email" id="email" />
+        </div>
+        <div>
+            <label for="password">Contrasenya</label>
+            <input type="password" name="password" id="password" />
+        </div>
+        <div>
+            <label for="remember">Recorda'm</label>
+            <input type="checkbox" name="remember" id="remember" value="1" />
+        </div>
+        <input type="submit" value="Enviar" />
+        <div>
+            <a href="crearUsuario.html">Crear usuari</a>
+        </div>
+    </form>
+</body>
+
+</html>

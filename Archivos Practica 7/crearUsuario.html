@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulari PHP</title>
+</head>
+
+<body>
+    <h1>Crear un usuari</h1>
+
+    <form method="POST" action="registrarUsuario.php">
+
+        <div>
+            <label for="user_id">Número ID</label>
+            <input type="text" name="user_id" id="user_id" />
+        </div>
+        <div>
+            <label for="name">Nom</label>
+            <input type="text" name="name" id="name" />
+        </div>
+        <div>
+            <label for="surname">Cognom</label>
+            <input type="text" name="surname" id="surname" />
+        </div>
+        <div>
+            <label for="password">Contrasenya</label>
+            <input type="password" name="password" id="password" />
+        </div>
+        <div>
+            <label for="email">Correu electrònic</label>
+            <input type="text" name="email" id="email" />
+        </div>
+        <div>
+            <label for="rol">Rol</label>
+            <select name="rol" id="rol">
+                <option value="alumnat">alumne</option>
+                <option value="professorat">professor</option>
+            </select>
+        </div>
+        <div>
+            <label for="active">Actiu</label>
+            <input type="checkbox" name="active" id="active" value="1" />
+        </div>
+        <input type="submit" value="Enviar" />
+        <a href="loginUsuario.html">Iniciar sessió usuari</a>
+    </form>
+</body>
+
+</html>
