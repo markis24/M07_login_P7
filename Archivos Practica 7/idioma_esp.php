@@ -14,8 +14,9 @@ $nombre_usuarios = "Nombre";
 $apellido_usuarios = "Apellidos";
 $email_usuarios = "Correo Electronico";
 
-// Mostrar informacion de un usuario en concreto
+// ...
 
+// Mensajes para mostrar información de usuario
 $informacion_detallada_usuario = "Información detallada del usuario";
 $id_usuario = "Id del usuari";
 $nombre_usuario = "Nombre";
@@ -23,6 +24,8 @@ $apellido_usuario = "Apellidos";
 $email_usuario = "Correo electronico";
 $rol_usuario = "Rol";
 $actividad_usuario = "Activo";
-// Enlace para volver atras 
+// ...
+
+// Otros mensajes y variables
 $volver = "VOLVER";
 ?>
