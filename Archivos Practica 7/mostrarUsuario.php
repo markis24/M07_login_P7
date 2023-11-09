@@ -48,4 +48,5 @@ try {
 }
 ?>
 <br>
+<!--Volvemos al archivo html loginUsuario-->
 <a href="loginUsuario.html"><?php echo $volver?></a>
