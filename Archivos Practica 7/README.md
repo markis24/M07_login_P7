@@ -1,16 +1,16 @@
 # ACTIVIDAD 7 - LOGIN & COOKIES
 
-## Requisitos
+## Requisitos de la actividad
 
 - Servidor web con PHP y MySQL.
 - Acceso a phpMyAdmin para la gestión de la base de datos.
 
 ## Objetivos de la actividad
 
-* resolver problemas
+* Resolver problemas
 * Aprender Git y Github
 * Aprender a utilizar Cookies en PHP
-
+* Aplicar los que hemos aprendido en PHP
 
 ## El usuario tiene rol de profesor (Catalan):
 
